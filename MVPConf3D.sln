@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVPConf3D.Plugins", "MVPConf3D.Plugins.csproj", "{5629673A-5657-9480-F80A-4AF3EEE4DC62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVPConf3D", "MVPConf3D.csproj", "{7837A994-3603-F50B-5D7C-32300948EC89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVPConf3D.Editor.Plugins", "MVPConf3D.Editor.Plugins.csproj", "{2D03653D-05C0-9E39-A71D-B0ECF6417A0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5629673A-5657-9480-F80A-4AF3EEE4DC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5629673A-5657-9480-F80A-4AF3EEE4DC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5629673A-5657-9480-F80A-4AF3EEE4DC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5629673A-5657-9480-F80A-4AF3EEE4DC62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7837A994-3603-F50B-5D7C-32300948EC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7837A994-3603-F50B-5D7C-32300948EC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7837A994-3603-F50B-5D7C-32300948EC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7837A994-3603-F50B-5D7C-32300948EC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D03653D-05C0-9E39-A71D-B0ECF6417A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D03653D-05C0-9E39-A71D-B0ECF6417A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D03653D-05C0-9E39-A71D-B0ECF6417A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D03653D-05C0-9E39-A71D-B0ECF6417A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

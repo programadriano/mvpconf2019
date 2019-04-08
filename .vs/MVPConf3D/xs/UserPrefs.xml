@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{7837A994-3603-F50B-5D7C-32300948EC89}|">
+  <MonoDevelop.Ide.ItemProperties.MVPConf3D PreferredExecutionTarget="e563b46c-6274-4464-88b7-d2bc862c5028" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Arma.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Arma.cs" Line="9" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVPConf3D" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Arma.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
