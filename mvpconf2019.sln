@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvpconf2019", "Assembly-CSharp-firstpass.csproj", "{263D7AF9-E1ED-FE7F-8E5C-B05789EC82EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{263D7AF9-E1ED-FE7F-8E5C-B05789EC82EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvpconf2019", "Assembly-CSharp.csproj", "{9D0C039B-ECB0-E712-215D-B395F083C23D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9D0C039B-ECB0-E712-215D-B395F083C23D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvpconf2019", "Assembly-CSharp-Editor-firstpass.csproj", "{9B8B5C69-F9D1-FECF-1748-2EE22DEEE0B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{9B8B5C69-F9D1-FECF-1748-2EE22DEEE0B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
