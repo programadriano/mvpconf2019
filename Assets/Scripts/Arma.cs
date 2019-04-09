@@ -7,6 +7,7 @@ public class Arma : MonoBehaviour
 {
 
     private int TotalMunicao = 30;
+    private int DestroyWall = 10;
 
     //"Dano da arma"
     public float damage;
@@ -51,11 +52,24 @@ public class Arma : MonoBehaviour
         particulaArma.Play();
         RaycastHit hit;
         TotalMunicao -= 1;
+        
 
         if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, range))
         {
-            Debug.Log("Fire" + hit.transform.name);
+            Debug.Log(hit.transform.name);
             GameObject impactoAlvo = Instantiate(impacto, hit.point, Quaternion.LookRotation(hit.normal));
+
+            if (hit.transform.name == "box")
+            {
+                Destroy(hit.collider.gameObject);
+                DestroyWall -= 1;
+            }           
+            
+        }
+
+        if (DestroyWall == 0)
+        {
+            Destroy(GameObject.FindWithTag("wall_block"));
         }
 
     }
