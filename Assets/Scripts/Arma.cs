@@ -19,7 +19,7 @@ public class Arma : MonoBehaviour
 
     //Quantos tiros por segundos
     public float firerate;
-    public float waitToFirerate;
+    private float waitToFirerate = 0;
 
     //Camera
     public Camera cam;
@@ -58,7 +58,7 @@ public class Arma : MonoBehaviour
 
         if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
+           
             GameObject impactoAlvo = Instantiate(impacto, hit.point, Quaternion.LookRotation(hit.normal));
 
             if (hit.transform.name == "box")
